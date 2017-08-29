@@ -18,7 +18,7 @@ $(document).ready(function () {
       },
       {
         fill: false,
-        label: 'Humidity',
+        label: '空气湿度',
         yAxisID: 'Humidity',
         borderColor: "rgba(24, 120, 240, 1)",
         pointBoarderColor: "rgba(24, 120, 240, 1)",
@@ -33,7 +33,7 @@ $(document).ready(function () {
   var basicOption = {
     title: {
       display: true,
-      text: 'Temperature & Humidity Real-time Data',
+      text: 'Azure IoT 气温和空气湿度实时监控平台',
       fontSize: 36
     },
     scales: {
@@ -41,7 +41,7 @@ $(document).ready(function () {
         id: 'Temperature',
         type: 'linear',
         scaleLabel: {
-          labelString: 'Temperature(C)',
+          labelString: '气温(C)',
           display: true
         },
         position: 'left',
@@ -49,7 +49,7 @@ $(document).ready(function () {
           id: 'Humidity',
           type: 'linear',
           scaleLabel: {
-            labelString: 'Humidity(%)',
+            labelString: '空气湿度(%)',
             display: true
           },
           position: 'right'
